@@ -1,10 +1,5 @@
-// 5  == solution(4)
-// 53  == solution(45)
-// 53  == solution(48)
-// 333  == solution(130)
-// 333  == solution(98)
-// 3333  == solution(949)
-// 353  == solution(339)
+// «lucky» number cobsists only of 5 and 3,
+// script should return the closest «lucky» number to any given one
 
 function solution(number) {
   let arr = [...number.toString()].map((i) => i - 0);
@@ -50,3 +45,10 @@ function solution(number) {
 }
 
 console.log(solution(47560060));
+// 5  == solution(4)
+// 53  == solution(45)
+// 53  == solution(48)
+// 333  == solution(130)
+// 333  == solution(98)
+// 3333  == solution(949)
+// 353  == solution(339)
